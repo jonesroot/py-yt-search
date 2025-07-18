@@ -32,7 +32,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=[
-        "httpx>=0.28.1",
+        "httpx>=0.27.2,<0.28.1",
         "python-dotenv>=1.1.0",
     ],
     keywords="youtube youtube-api video-search playlist channel search py_yt py-yt-search py-yt",
